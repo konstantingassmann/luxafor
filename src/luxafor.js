@@ -81,7 +81,7 @@ function Luxafor(opts) {
      * @param color hex color in the format of #ffffff
      */
     this.parseColor = function (color) {
-        return hex2rgb(color);
+        return hex2rgb(color, {format: 'array'});
     };
 
     /**
